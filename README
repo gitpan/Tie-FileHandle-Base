@@ -1,4 +1,4 @@
-Tie/FileHandle/Base version 0.01
+Tie/FileHandle/Base version 0.1
 ================================
 
 A base module to simplify creation of new FileHandle Tie modules by
@@ -16,6 +16,6 @@ To install this module type the following:
 
 COPYRIGHT AND LICENCE
 
-Written by Robby Walker ( webmaster@pointwriter.com ) for Point Writer ( http://www.pointwriter.com/ ).
+Written by Robby Walker ( robwalker@cpan.org ) for Point Writer ( http://www.pointwriter.com/ ).
 
 You may redistribute/modify/etc. this module under the same terms as Perl itself.

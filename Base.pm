@@ -41,7 +41,7 @@ with a backwards supporting SEEK.
 
 =item *
 
-03/09/02 - Robby Walker - did the output stuff - version 0.002
+03/09/02 - Robby Walker - did the output stuff - version 0.1
 
 =item *
 
@@ -61,7 +61,7 @@ package Tie::FileHandle::Base;
 use vars qw($VERSION %loop);
 use strict;
 
-$VERSION = 0.001;
+$VERSION = 0.1;
 %loop = ();
 
 # ------------------------------------------------------------------------
@@ -211,8 +211,6 @@ sub EOF {
 
 
 
-
-
 1;
 
 __END__
@@ -237,10 +235,10 @@ test.pl
 
 =head1 BUGS
 
-Probably some
+This is a new module and has not been thoroughly tested.
 
 =head1 AUTHORS AND COPYRIGHT
 
-Written by Robby Walker ( webmaster@pointwriter.com ) for Point Writer ( http://www.pointwriter.com/ ).
+Written by Robby Walker ( robwalker@cpan.org ) for Point Writer ( http://www.pointwriter.com/ ).
 
 You may redistribute/modify/etc. this module under the same terms as Perl itself.
